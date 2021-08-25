@@ -1,0 +1,53 @@
+.arrowUp {
+    position: fixed;
+    padding: 4px;
+    top: 90vh;
+    left: 95vw;
+    z-index: 600;
+}
+.arrowUp:hover {
+    margin-top: -15px;
+}
+.arrowUp {
+    animation: upDown linear 1s infinite;
+    -webkit-animation: upDown linear 1s infinite;
+    -moz-animation: upDown linear 1s infinite;
+    -o-animation: upDown linear 1s infinite;
+    -ms-animation: upDown linear 1s infinite;
+}
+
+@keyframes upDown {
+    0% {margin-top: 0px}
+    50% {margin-top: 8px}
+    100% {margin-top: 0px}
+}
+
+@-moz-keyframes upDown {
+    0% {margin-top: 0px}
+    50% {margin-top: 8px}
+    100% {margin-top: 0px}
+}
+
+@-webkit-keyframes upDown {
+    0% {margin-top: 0px}
+    50% {margin-top: 8px}
+    100% {margin-top: 0px}
+}
+
+@-o-keyframes upDown {
+    0% {margin-top: 0px}
+    50% {margin-top: 8px}
+    100% {margin-top: 0px}
+}
+
+@-ms-keyframes upDown {
+    0% {margin-top: 0px}
+    50% {margin-top: 8px}
+    100% {margin-top: 0px}
+}
+@media (min-width: 100px) and (max-width: 640px) {
+    .arrowUp {
+        top: 86vh;
+        left: 85vw;
+    }
+}

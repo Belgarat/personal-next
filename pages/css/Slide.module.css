@@ -1,0 +1,121 @@
+div .slide {
+    position: relative;
+    opacity: 0;
+    background: transparent;
+    width: 90%;
+    height: 60vh;
+    transition: .8s ease;
+}
+div .active {
+    opacity: 1;
+    transition: .8s ease;
+}
+div .none {
+    display: none;
+}
+
+div .block {
+    display: block;
+}
+.arrowLeft, .arrowRight {
+    font-size: 4.2em;
+    color: rgba(66,139,173,0.5)!important;
+}
+
+.arrowLeft {
+    animation: rightDirection linear 2s infinite;
+    -webkit-animation: rightDirection linear 2s infinite;
+    -moz-animation: rightDirection linear 2s infinite;
+    -o-animation: rightDirection linear 2s infinite;
+    -ms-animation: rightDirection linear 2s infinite;
+}
+
+.imageContainer {
+    width: 100%;
+}
+.imageContainer > div {
+    position: unset !important;
+}
+.imageContainer .image {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+}
+
+.linkStrong {
+    font-size: 1.4em;
+}
+
+@keyframes rightDirection {
+    0% {opacity: 0.5}
+    50% {opacity: 1}
+    100% {opacity: 0.5}
+}
+
+@-moz-keyframes rightDirection {
+    0% {opacity: 0.5}
+    50% {opacity: 1}
+    100% {opacity: 0.5}
+}
+
+@-webkit-keyframes rightDirection {
+    0% {opacity: 0.5}
+    50% {opacity: 1}
+    100% {opacity: 0.5}
+}
+
+@-o-keyframes rightDirection {
+    0% {opacity: 0.5}
+    50% {opacity: 1}
+    100% {opacity: 0.5}
+}
+
+@-ms-keyframes rightDirection {
+    0% {opacity: 0.5}
+    50% {opacity: 1}
+    100% {opacity: 0.5}
+}
+
+.arrowRight {
+    animation: leftDirection linear 2s infinite;
+    -webkit-animation: leftDirection linear 2s infinite;
+    -moz-animation: leftDirection linear 2s infinite;
+    -o-animation: leftDirection linear 2s infinite;
+    -ms-animation: leftDirection linear 2s infinite;
+}
+
+@keyframes leftDirection {
+    0% {opacity: 0.5}
+    50% {opacity: 1}
+    100% {opacity: 0.5}
+}
+
+@-moz-keyframes leftDirection {
+    0% {opacity: 0.5}
+    50% {opacity: 1}
+    100% {opacity: 0.5}
+}
+
+@-webkit-keyframes leftDirection {
+    0% {opacity: 0.5}
+    50% {opacity: 1}
+    100% {opacity: 0.5}
+}
+
+@-o-keyframes leftDirection {
+    0% {opacity: 0.5}
+    50% {opacity: 1}
+    100% {opacity: 0.5}
+}
+
+@-ms-keyframes leftDirection {
+    0% {opacity: 0.5}
+    50% {opacity: 1}
+    100% {opacity: 0.5}
+}
+@media (min-width: 100px) and (max-width: 640px) {
+    .arrowRight, .arrowLeft {
+        font-size: 2.2em;
+    }
+}

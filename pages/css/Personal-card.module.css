@@ -1,0 +1,61 @@
+.imageContainer {
+    width: 100%;
+}
+.imageContainer > div {
+    position: unset !important;
+}
+.imageContainer .image {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+}
+
+.universal-inline-block {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+.socialIcons {
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #448aaf;
+}
+.socialIcons h1 {
+    margin: 40px 0;
+}
+.socialIcons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.socialIcons ul li {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+}
+.socialIcons ul li a {
+    display: block;
+    font-size: 1.4em;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.socialIcons ul li a .icon {
+    color: #448aaf;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.socialIcons ul li a:hover i {
+    color: #275066;
+}
+.socialIcons ul li a:focus i,
+.socialIcons ul li a:active i {
+    transition: none;
+    color: #0b161c;
+}

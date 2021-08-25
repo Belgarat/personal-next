@@ -1,0 +1,57 @@
+.fadeInText {
+    animation: fadeIn linear 2s, moveDown 1s;
+    -webkit-animation: fadeIn linear 2s, moveDown 1s;
+    -moz-animation: fadeIn linear 2s, moveDown 1s;
+    -o-animation: fadeIn linear 2s, moveDown 1s;
+    -ms-animation: fadeIn linear 2s, moveDown 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@keyframes moveDown {
+    0% {margin-top: -40px;}
+    100% {margin-top: 0px;}
+}
+
+@-moz-keyframes moveDown {
+    0% {margin-top: -40px;}
+    100% {margin-top: 0px;}
+}
+
+@-webkit-keyframes moveDown {
+    0% {margin-top: -40px;}
+    100% { margin-top: -0px;}
+}
+
+@-o-keyframes moveDown {
+    0% {margin-top: -40px;}
+    100% {margin-top: 0px;}
+}
+
+@-ms-keyframes moveDown {
+    0% {margin-top: -40px;}
+    100% {margin-top: 0px;}
+}
