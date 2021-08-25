@@ -12,8 +12,8 @@ export const ScrollBar: React.FC<Data> = ({ position, h }) => {
 
     return (
         <>
-            <div className="scrollBar d-flex">
-                <div style={{ width: current }} className="bar"><span></span></div>
+            <div className={`${styles.scrollBar} d-flex`}>
+                <div style={{ width: current }} className={`${styles.bar}`}><span></span></div>
             </div>
         </>
     )
